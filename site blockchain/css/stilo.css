@@ -1,0 +1,87 @@
+#foto {
+    width: 100%px;
+    height: 160px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 17px;
+    border-color: aqua;
+   
+}
+body{
+    overflow-X: hidden;
+    backdrop-filter: url(imagem\ fundo.webp) brightness(45%);
+    background-image: url(imagem\ fundo.webp);
+    background-repeat: repeat-x 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+        
+    }
+    @media screen and (max-width: 1050px) {body{font-size: 18px;}
+        
+        
+    }
+    
+ @keyframes move{
+    from {left: 100px;}
+    to {left: 20px}}
+    #text {position:relative;
+         animation: move 4s alternate-reverse;
+         left: 100px; 
+         
+    }
+
+ #clip{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 650px;
+    border-radius: 20px;
+        
+}
+#texto2{
+    margin: auto;
+    background-image: url(fundo\ texto.png);
+    width: 40%;
+    height: 380px;
+    margin-right: 0px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    text-decoration: solid;
+    box-shadow: 10px 10px 10px rgb(30, 84, 202);
+    
+   
+    
+    
+        
+    }
+    @media screen and (max-width: 1050px) {#texto2
+        {width: 100%; max-width: 80%;}
+        
+    }
+
+    
+    
+    
+
+@keyframes texto{
+     de {left: 0px;}
+     para {right: 0px;}}
+ #texto2 {position: fixed;
+animation: move 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+bottom: 520px;
+}
+
+
+
+    
+
+    
+
+    
